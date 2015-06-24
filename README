@@ -1,0 +1,21 @@
+UDP pinger
+This program is written in Java , Named UDPPinger under the source UDPPinger.java
+In the source, there constant call host is the server address. By default, I set it to localhost
+if server response the ping, the program will print the delay. If the server not response in one second, the program will print lost.
+
+---------------------more than baseline-------------------------
+I use java to create this chat room program
+To complie program, go to the source folder and type
+Javac *.java
+For both server and client program
+In server side, I create 3 class called ChatServer, Client and Room.
+The ChatServer class take cake about the accepting new clients and the main function of the chat room
+The Client take cake information about each client and has its own thread to read the message from the client program. The Socket is managed in this class
+The Room class take cake all the room related function. 
+When a client login into the server, it will be not in any room. Client has to use command in order to get into a room.
+All of the basic command is functioning
+
+In the client side, is a simple basic program that print message come from the server and sent message that user typed with a time. 
+Went the program started. It asks the address of the Server.
+
+For both server and client, there is a hard coded constant that show the port that the server is listening to. 

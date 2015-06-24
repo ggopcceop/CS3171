@@ -1,0 +1,4 @@
+100
+defaultRoom 50
+chatRoom 20
+peopleRoom 30
